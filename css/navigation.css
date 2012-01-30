@@ -40,11 +40,6 @@ input#search_box
   line-height:        1em;
 }
 
-td#sidebar
-{
-  padding-top: 30px;
-}
-
 div.results
 {
   border-radius:      10px;
@@ -78,3 +73,14 @@ div.results a.result img
   border: 0px;
 }
 
+#sidebar-nav h3
+{
+    padding: 10px 0;
+}
+
+.ui-accordion .ui-accordion-header .ui-icon
+{
+    position: static;
+    margin-top: 0;
+    float: left;
+}
