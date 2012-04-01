@@ -5,6 +5,9 @@
   <version>1.0.3</version>
   <copyright>Mike van Riel / Naenius 2012</copyright>
   <description>This is the New Black look and feel for phpDocumentor</description>
+  <dependencies>
+      <template name="abstract" version="1.0.2" />
+  </dependencies>
   <transformations>
     <transformation query="copy" writer="FileIo" source="ajax_search.php" artifact="ajax_search.php"/>
     <transformation query="copy" writer="FileIo" source="../data/js" artifact="js"/>
@@ -17,7 +20,7 @@
     <transformation query="" writer="Search" source="" artifact="."/>
     <transformation query="" writer="xsl" source="templates/abstract/index.xsl" artifact="index.html"/>
     <transformation query="" writer="xsl" source="templates/abstract/content.xsl" artifact="content.html"/>
-    <transformation query="" writer="xsl" source="templates/new_black/nav.xsl" artifact="nav.html">
+    <transformation query="" writer="xsl" source="templates/new_black/sidebar.xsl" artifact="nav.html">
         <parameters>
             <variables>
                 <section.dashboard.show>false</section.dashboard.show>
