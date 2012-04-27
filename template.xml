@@ -2,11 +2,11 @@
 <template>
   <author>Mike van Riel</author>
   <email>mike.vanriel@naenius.com</email>
-  <version>1.0.3</version>
+  <version>1.0.4</version>
   <copyright>Mike van Riel / Naenius 2012</copyright>
   <description>This is the New Black look and feel for phpDocumentor</description>
   <dependencies>
-      <template name="abstract" version="1.0.2" />
+      <template name="abstract" version="1.0.3" />
   </dependencies>
   <transformations>
     <transformation query="copy" writer="FileIo" source="ajax_search.php" artifact="ajax_search.php"/>
