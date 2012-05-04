@@ -1,0 +1,12 @@
+{
+    "name": "phpdocumentor/template-new-black",
+    "type": "phpdocumentor-template",
+    "license": "MIT",
+    "repositories":[
+        { "type":"git", "url":"http://github.com/phpDocumentor/TemplateInstaller" }
+    ],
+    "require": {
+        "ext-xsl": "*",
+        "phpdocumentor/template-installer":"*"
+    }
+}
