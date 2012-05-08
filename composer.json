@@ -1,11 +1,10 @@
 {
     "name": "phpdocumentor/template-new-black",
     "type": "phpdocumentor-template",
+    "description": "Web 2.0 template with dark sidebar for phpDocumentor",
+    "keywords": ["documentation", "template", "phpdoc"],
+    "homepage": "http://www.phpdoc.org",
     "license": "MIT",
-    "repositories":[
-        { "type":"git", "url":"http://github.com/phpDocumentor/UnifiedAssetInstaller" },
-        { "type":"git", "url":"http://github.com/phpDocumentor/template.abstract" }
-    ],
     "require": {
         "ext-xsl": "*",
         "phpdocumentor/unified-asset-installer": "dev-master",
