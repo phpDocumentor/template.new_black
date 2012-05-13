@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {
         "ext-xsl": "*",
-        "phpdocumentor/unified-asset-installer": "dev-master",
-        "phpdocumentor/template-abstract": "dev-master"
+        "phpdocumentor/unified-asset-installer": "1.*",
+        "phpdocumentor/template-abstract": "1.*"
     }
 }
