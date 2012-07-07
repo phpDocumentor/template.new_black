@@ -2,7 +2,7 @@
 <template>
   <author>Mike van Riel</author>
   <email>mike.vanriel@naenius.com</email>
-  <version>1.0.4</version>
+  <version>1.0.5</version>
   <copyright>Mike van Riel / Naenius 2012</copyright>
   <description>This is the New Black look and feel for phpDocumentor</description>
   <dependencies>
@@ -34,7 +34,7 @@
             </variables>
         </parameters>
     </transformation>
-    <transformation query="/project/file/@path" writer="xsl" source="templates/abstract/api-doc.xsl" artifact="{$path}"/>
+    <transformation query="/project/file/@path" writer="xsl" source="templates/abstract/api-doc.xsl" artifact="files/{$path}"/>
     <transformation query="" writer="xsl" source="templates/abstract/report_markers.xsl" artifact="report_markers.html"/>
     <transformation query="" writer="xsl" source="templates/abstract/report_parse_markers.xsl" artifact="report_parse_markers.html"/>
     <transformation query="" writer="xsl" source="templates/abstract/report_deprecated.xsl" artifact="report_deprecated.html"/>
