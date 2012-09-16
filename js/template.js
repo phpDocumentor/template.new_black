@@ -59,15 +59,15 @@ $(document).ready(function() {
     <div><input type="search" /></div> \
 </div>');
 
-    jQuery('.sidebar-nav-tree a[0]').click(function() {
+    jQuery('.search-bar').find('a:eq(0)').click(function() {
         jQuery(this).parent().next().find('.collapsable-hitarea').click();
         return false;
     });
-    jQuery('.sidebar-nav-tree a[1]').click(function() {
+    jQuery('.search-bar').find('a:eq(1)').click(function() {
         jQuery(this).parent().next().find('.expandable-hitarea').click();
         return false;
     });
-    jQuery('.sidebar-nav-tree input').keyup(function() {
+    jQuery('.search-bar input').keyup(function() {
         tree_search(this);
     });
 
