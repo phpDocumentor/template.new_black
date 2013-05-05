@@ -3,6 +3,7 @@
     <xsl:include href="../abstract/chrome.xsl" />
     <xsl:output indent="yes" method="html" />
 
+    <xsl:param name="section.dashboard.show" />
     <xsl:template name="sidebar-header">
         <xsl:if test="not($title)">
             <img src="images/logo.png" id="sidebar-logo" alt="Logo" />
@@ -13,6 +14,12 @@
             </xsl:if>
         </h1>
         <div style="clear: both"></div>
+        <xsl:if test="$section.dashboard.show != 'false'">
+            <h3 id="sidebar-dashboard">
+                <a href="{$root}content.html" target="content"
+                   class="ui-state-default ui-helper-reset ui-accordion-header">Dashboard</a>
+            </h3>
+        </xsl:if>
     </xsl:template>
 
     <xsl:template name="content">
