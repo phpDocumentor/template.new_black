@@ -9,7 +9,7 @@
       <template name="abstract" version="1.0.3" />
   </dependencies>
   <transformations>
-    <transformation query="" writer="xml" source="" artifact="structure.xml"/>
+    <transformation writer="xml" artifact="structure.xml"/>
     <transformation query="copy" writer="FileIo" source="ajax_search.php" artifact="ajax_search.php"/>
     <transformation query="copy" writer="FileIo" source="../data/js" artifact="js"/>
     <transformation query="copy" writer="FileIo" source="../data/syntax_highlighter" artifact="syntax_highlighter"/>
@@ -40,7 +40,7 @@
     <transformation writer="xsl" source="templates/abstract/report_markers.xsl" artifact="report_markers.html"/>
     <transformation writer="xsl" source="templates/abstract/report_parse_markers.xsl" artifact="report_parse_markers.html"/>
     <transformation writer="xsl" source="templates/abstract/report_deprecated.xsl" artifact="report_deprecated.html"/>
-    <!--<transformation writer="sourcecode" source="" artifact=""/>-->
+    <transformation writer="sourcecode" />
     <transformation writer="xsl" source="templates/abstract/graph_class.xsl" artifact="graph.html"/>
     <transformation writer="Graph" source="Class" artifact="classes.svg" />
   </transformations>
