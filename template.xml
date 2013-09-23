@@ -10,7 +10,7 @@
   </dependencies>
   <transformations>
     <transformation writer="xml" artifact="structure.xml"/>
-    <transformation query="copy" writer="FileIo" source="ajax_search.php" artifact="ajax_search.php"/>
+    <!--<transformation query="copy" writer="FileIo" source="ajax_search.php" artifact="ajax_search.php"/>-->
     <transformation query="copy" writer="FileIo" source="../data/js" artifact="js"/>
     <transformation query="copy" writer="FileIo" source="../data/syntax_highlighter" artifact="syntax_highlighter"/>
     <transformation query="copy" writer="FileIo" source="../data/images" artifact="images"/>
