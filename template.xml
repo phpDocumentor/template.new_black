@@ -10,14 +10,14 @@
   </dependencies>
   <transformations>
     <transformation writer="xml" artifact="structure.xml"/>
-    <transformation query="copy" writer="FileIo" source="ajax_search.php" artifact="ajax_search.php"/>
-    <transformation query="copy" writer="FileIo" source="../data/js" artifact="js"/>
-    <transformation query="copy" writer="FileIo" source="../data/syntax_highlighter" artifact="syntax_highlighter"/>
-    <transformation query="copy" writer="FileIo" source="../data/images" artifact="images"/>
+    <!--<transformation query="copy" writer="FileIo" source="ajax_search.php" artifact="ajax_search.php"/>-->
+    <!--<transformation query="copy" writer="FileIo" source="../data/js" artifact="js"/>-->
+    <!--<transformation query="copy" writer="FileIo" source="../data/syntax_highlighter" artifact="syntax_highlighter"/>-->
+    <!--<transformation query="copy" writer="FileIo" source="../data/images" artifact="images"/>-->
     <transformation query="copy" writer="FileIo" source="templates/abstract/images" artifact="images"/>
     <transformation query="copy" writer="FileIo" source="templates/abstract/css" artifact="css"/>
-    <transformation query="copy" writer="FileIo" source="templates/new-black/css" artifact="css"/>
-    <transformation query="copy" writer="FileIo" source="templates/new-black/js" artifact="js"/>
+    <transformation query="copy" writer="FileIo" source="templates/new_black/css" artifact="css"/>
+    <transformation query="copy" writer="FileIo" source="templates/new_black/js" artifact="js"/>
     <transformation writer="xml" artifact="structure.xml" />
     <!--<transformation query="" writer="Search" source="" artifact="."/>-->
     <transformation writer="xsl" source="templates/abstract/index.xsl" artifact="index.html"/>
